@@ -1,7 +1,7 @@
 import sys
 import binascii
 
-from eddsa2 import Ed25519
+from eddsa import Ed25519
 
 def munge_string(s, pos, change):
     return (s[:pos] +
